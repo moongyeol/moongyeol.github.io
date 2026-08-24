@@ -195,24 +195,6 @@ img { max-width: 100%; display: block; }
   background: rgba(255,255,255,0.5);
 }
 
-.scroll-cue {
-  position: absolute;
-  bottom: 34px;
-  left: 50%;
-  transform: translateX(-50%);
-}
-.scroll-cue span {
-  display: block;
-  width: 1px; height: 40px;
-  background: linear-gradient(var(--ink-soft), transparent);
-  animation: cue 2s ease-in-out infinite;
-}
-@keyframes cue {
-  0% { opacity: 0; transform: scaleY(0.4); transform-origin: top; }
-  50% { opacity: 1; transform: scaleY(1); }
-  100% { opacity: 0; transform: scaleY(0.4); transform-origin: bottom; }
-}
-
 /* ---------- Wave visual (About) ---------- */
 .wave-visual {
   position: relative;
