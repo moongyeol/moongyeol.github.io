@@ -195,11 +195,11 @@ img { max-width: 100%; display: block; }
   background: rgba(255,255,255,0.5);
 }
 
-/* ---------- Wave visual (About) ---------- */
+/* ---------- Wave visual (Hero) ---------- */
 .wave-visual {
   position: relative;
-  height: 110px;
-  margin: 0 0 56px;
+  height: 96px;
+  margin: 40px 0 0;
   overflow: hidden;
   -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
   mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
@@ -234,7 +234,7 @@ img { max-width: 100%; display: block; }
   .wave-layer { animation: none; }
 }
 @media (max-width: 640px) {
-  .wave-visual { height: 72px; margin-bottom: 40px; }
+  .wave-visual { height: 64px; margin-top: 28px; }
 }
 
 /* ---------- About ---------- */
