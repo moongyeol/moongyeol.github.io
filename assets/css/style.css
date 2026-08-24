@@ -213,6 +213,48 @@ img { max-width: 100%; display: block; }
   100% { opacity: 0; transform: scaleY(0.4); transform-origin: bottom; }
 }
 
+/* ---------- Wave visual (About) ---------- */
+.wave-visual {
+  position: relative;
+  height: 110px;
+  margin: 0 0 56px;
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+  mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+}
+.wave-layer {
+  position: absolute;
+  inset: 0;
+  background-repeat: repeat-x;
+  background-position: 0 bottom;
+}
+.wave-back {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 100' preserveAspectRatio='none'%3E%3Cpath d='M0,50 C50,50 50,72 100,72 C150,72 150,50 200,50 C250,50 250,28 300,28 C350,28 350,50 400,50 L400,100 L0,100 Z' fill='%23D7E0D1'/%3E%3C/svg%3E");
+  background-size: 400px 100%;
+  opacity: 0.8;
+  animation: wave-drift-back 22s linear infinite;
+}
+.wave-front {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 100' preserveAspectRatio='none'%3E%3Cpath d='M0,62 C37.5,62 37.5,78 75,78 C112.5,78 112.5,62 150,62 C187.5,62 187.5,46 225,46 C262.5,46 262.5,62 300,62 L300,100 L0,100 Z' fill='%235C7A6A' fill-opacity='0.35'/%3E%3C/svg%3E");
+  background-size: 300px 100%;
+  opacity: 0.9;
+  animation: wave-drift-front 14s linear infinite reverse;
+}
+@keyframes wave-drift-back {
+  from { background-position-x: 0; }
+  to { background-position-x: -400px; }
+}
+@keyframes wave-drift-front {
+  from { background-position-x: 0; }
+  to { background-position-x: -300px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .wave-layer { animation: none; }
+}
+@media (max-width: 640px) {
+  .wave-visual { height: 72px; margin-bottom: 40px; }
+}
+
 /* ---------- About ---------- */
 .two-col {
   display: grid;
