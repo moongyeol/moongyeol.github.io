@@ -583,7 +583,7 @@ img { max-width: 100%; display: block; }
 .treat-hero h1 { font-size: clamp(28px, 4.4vw, 42px); margin-bottom: 16px; }
 .treat-hero-lead { font-size: 17px; color: var(--ink); font-weight: 500; margin: 0; }
 .treat-hero-img {
-  max-width: 560px;
+  max-width: 360px;
   aspect-ratio: 16/10;
   margin: 40px auto 0;
   border-radius: var(--radius);
