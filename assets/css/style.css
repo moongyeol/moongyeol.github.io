@@ -586,7 +586,7 @@ img { max-width: 100%; display: block; }
 .tdetail { padding: 64px 0; }
 .tdetail.alt { background: var(--bg-alt); }
 .tdetail > .section-inner { max-width: 880px; }
-.tdetail h2 { font-size: clamp(20px, 2.6vw, 26px); margin-bottom: 26px; }
+.tdetail h2 { font-size: clamp(20px, 2.6vw, 26px); margin-bottom: 26px; text-align: center; }
 .tdetail p { font-size: 15px; }
 .tdetail .lead-block p:last-child { margin-bottom: 0; }
 .tdetail-note {
