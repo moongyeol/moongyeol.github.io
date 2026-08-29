@@ -104,6 +104,14 @@ img { max-width: 100%; display: block; }
 .main-nav a:hover { opacity: 1; }
 
 .header-actions { display: flex; align-items: center; gap: 18px; }
+.lang-toggle {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ink);
+  opacity: .7;
+  transition: opacity .2s ease;
+}
+.lang-toggle:hover { opacity: 1; }
 
 .hamburger {
   display: none;
