@@ -586,6 +586,7 @@ img { max-width: 100%; display: block; }
 }
 .footer-logo { color: #fff; font-size: 18px; font-weight: 700; margin-bottom: 12px; }
 .footer-brand p { font-size: 13px; margin: 0 0 6px; color: rgba(255,255,255,0.55); }
+.footer-hours { margin-top: 14px !important; line-height: 1.7; }
 .footer-links { display: flex; gap: 24px; align-items: flex-start; }
 .footer-links a { font-size: 14px; color: rgba(255,255,255,0.7); }
 .footer-links a:hover { color: #fff; }
