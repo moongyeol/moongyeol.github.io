@@ -462,6 +462,8 @@ img { max-width: 100%; display: block; }
 }
 .treat-card-link { display: block; color: inherit; }
 .treat-card-link:hover .treat-img img { transform: scale(1.04); }
+.treat-img.contain { background: #fff; }
+.treat-img.contain img { object-fit: contain; }
 .treat-more {
   display: inline-block;
   margin-top: 10px;
@@ -677,6 +679,16 @@ img { max-width: 100%; display: block; }
   overflow: hidden;
 }
 .treat-hero-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.treat-hero-img.contain { background: #fff; }
+.treat-hero-img.contain img { object-fit: contain; }
+
+.tdetail-img-single {
+  max-width: 480px;
+  margin: 28px auto;
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.tdetail-img-single img { width: 100%; height: auto; display: block; }
 
 .tdetail { padding: 64px 0; }
 .tdetail.alt { background: var(--bg-alt); }
