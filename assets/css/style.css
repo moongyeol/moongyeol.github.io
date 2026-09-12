@@ -542,19 +542,25 @@ img { max-width: 100%; display: block; }
   border-radius: var(--radius);
   padding: 34px 26px;
 }
+.step-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+}
 .step-num {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   width: 30px; height: 30px;
+  flex-shrink: 0;
   border-radius: 50%;
   background: var(--accent-soft);
   color: var(--accent-dark);
   font-size: 13px;
   font-weight: 700;
-  margin-bottom: 16px;
 }
-.system-step h3 { font-size: 17px; margin-bottom: 6px; }
+.system-step h3 { font-size: 17px; margin-bottom: 0; }
 .step-title { color: var(--ink); font-weight: 600; margin-bottom: 8px; }
 .system-step p:last-child { font-size: 14px; margin: 0; }
 .system-arrow {
