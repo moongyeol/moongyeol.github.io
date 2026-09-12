@@ -428,6 +428,7 @@ img { max-width: 100%; display: block; }
 .card-grid-5 { grid-template-columns: repeat(5, 1fr); }
 .card-grid-4 { grid-template-columns: repeat(4, 1fr); }
 .card-grid-3 { grid-template-columns: repeat(3, 1fr); }
+.card-grid-2 { grid-template-columns: repeat(2, 1fr); max-width: 760px; margin-left: auto; margin-right: auto; }
 
 .care-card {
   background: var(--bg-alt);
@@ -790,7 +791,7 @@ img { max-width: 100%; display: block; }
 }
 
 @media (max-width: 480px) {
-  .card-grid-5, .card-grid-4, .card-grid-3 { grid-template-columns: 1fr; }
+  .card-grid-5, .card-grid-4, .card-grid-3, .card-grid-2 { grid-template-columns: 1fr; }
   .space-gallery { grid-template-columns: 1fr; }
   .doctor-media { grid-template-columns: 1fr; }
   .stat-grid { grid-template-columns: 1fr; }
