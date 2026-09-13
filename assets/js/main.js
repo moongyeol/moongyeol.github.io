@@ -2,6 +2,22 @@
 
 document.getElementById('year').textContent = new Date().getFullYear();
 
+// staggered variable-font weight hover on nav links
+document.querySelectorAll('.main-nav a').forEach((link) => {
+  const label = link.textContent;
+  const chars = Array.from(label);
+  link.setAttribute('aria-label', label);
+  link.innerHTML = '';
+  const center = (chars.length - 1) / 2;
+  chars.forEach((ch, i) => {
+    const span = document.createElement('span');
+    span.className = 'nav-char';
+    span.textContent = ch === ' ' ? ' ' : ch;
+    span.style.transitionDelay = `${Math.abs(i - center) * 0.03}s`;
+    link.appendChild(span);
+  });
+});
+
 // header shadow on scroll
 const header = document.getElementById('siteHeader');
 const onScroll = () => {

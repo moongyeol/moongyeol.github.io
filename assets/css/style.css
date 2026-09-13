@@ -102,6 +102,12 @@ img { max-width: 100%; display: block; }
   transition: opacity .2s ease;
 }
 .main-nav a:hover { opacity: 1; }
+.main-nav .nav-char {
+  display: inline-block;
+  font-variation-settings: 'wght' 400;
+  transition: font-variation-settings .35s ease;
+}
+.main-nav a:hover .nav-char { font-variation-settings: 'wght' 700; }
 
 .header-actions { display: flex; align-items: center; gap: 18px; }
 .lang-toggle {
