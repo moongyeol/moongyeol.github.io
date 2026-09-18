@@ -18,6 +18,12 @@ document.querySelectorAll('.main-nav a').forEach((link) => {
   });
 });
 
+// slow down hero background video
+const heroVideo = document.querySelector('.hero-video');
+if (heroVideo) {
+  heroVideo.playbackRate = 0.5;
+}
+
 // header shadow on scroll
 const header = document.getElementById('siteHeader');
 const onScroll = () => {

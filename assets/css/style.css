@@ -208,7 +208,7 @@ img { max-width: 100%; display: block; }
 .hero-media-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to bottom, rgba(20,22,18,0.15) 0%, rgba(20,22,18,0.28) 55%, rgba(20,22,18,0.4) 100%);
+  background: linear-gradient(to bottom, rgba(10,12,8,0.05) 0%, rgba(10,12,8,0.14) 55%, rgba(10,12,8,0.24) 100%);
 }
 .hero-inner { max-width: 760px; position: relative; z-index: 1; }
 .hero-badge {
@@ -227,17 +227,20 @@ img { max-width: 100%; display: block; }
   letter-spacing: -0.02em;
   margin-bottom: 22px;
   color: #fff;
+  text-shadow: 0 2px 16px rgba(0,0,0,0.45);
 }
 .hero-lead {
   font-size: clamp(18px, 2.2vw, 24px);
   color: rgba(255,255,255,0.95);
   font-weight: 500;
   margin-bottom: 34px;
+  text-shadow: 0 2px 14px rgba(0,0,0,0.45);
 }
 .hero-note {
   font-size: 15px;
   color: rgba(255,255,255,0.78);
   margin-bottom: 46px;
+  text-shadow: 0 1px 10px rgba(0,0,0,0.4);
 }
 .hero-tags {
   list-style: none;
