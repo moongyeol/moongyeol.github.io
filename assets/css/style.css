@@ -91,6 +91,11 @@ img { max-width: 100%; display: block; }
   object-fit: cover;
   align-self: center;
 }
+.logo-wordmark {
+  height: 34px;
+  width: auto;
+  display: block;
+}
 .heading-mark {
   display: inline-block;
   width: 36px;
