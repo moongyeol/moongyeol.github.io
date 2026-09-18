@@ -100,7 +100,6 @@ img { max-width: 100%; display: block; }
   display: inline-block;
   width: 36px;
   height: 36px;
-  border-radius: 8px;
   object-fit: cover;
   vertical-align: -8px;
   margin-right: 10px;
