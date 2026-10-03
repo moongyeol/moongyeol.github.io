@@ -123,12 +123,18 @@ if (spaceItems.length) {
     const items = groups[key];
     const photos = items.map((item) => {
       const img = item.querySelector('.space-photo');
-      const caption = item.querySelector('figcaption p');
+      const caption = item.querySelector('.space-photo-overlay p');
       return { src: img.src, alt: img.alt, caption: caption ? caption.textContent : '' };
     });
 
     const wrap = items[0].querySelector('.space-photo-wrap');
     wrap.addEventListener('click', () => openLightbox(photos, 0));
+    wrap.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        openLightbox(photos, 0);
+      }
+    });
 
     if (items.length > 1) {
       wrap.classList.add('has-stack');
