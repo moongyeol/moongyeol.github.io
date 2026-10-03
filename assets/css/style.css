@@ -602,7 +602,7 @@ img { max-width: 100%; display: block; }
 /* ---------- Space gallery (bento) ---------- */
 .space-gallery {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr;
   gap: 16px;
 }
 .space-item { margin: 0; height: 100%; }
