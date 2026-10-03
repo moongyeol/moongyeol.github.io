@@ -674,7 +674,7 @@ img { max-width: 100%; display: block; }
 @media (min-width: 981px) {
   .space-gallery {
     grid-template-columns: repeat(6, 1fr);
-    grid-auto-rows: 180px;
+    grid-template-rows: 180px 180px 132px 132px;
     gap: 20px;
   }
   .space-photo-wrap { aspect-ratio: auto; }
