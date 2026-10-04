@@ -268,7 +268,15 @@ img { max-width: 100%; display: block; }
   align-items: center;
 }
 .lead-text { font-size: 18px; color: var(--ink); font-weight: 500; }
-.signature { margin-top: 28px; font-size: 14px; color: var(--ink-soft); }
+.signature {
+  margin-top: 28px;
+  font-size: 14px;
+  color: var(--ink-soft);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.signature-img { height: 40px; width: auto; display: block; }
 
 /* ---------- Doctor CV ---------- */
 .doctor-cv {
