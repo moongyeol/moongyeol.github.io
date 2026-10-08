@@ -546,6 +546,7 @@ img { max-width: 100%; display: block; }
   border-radius: var(--radius);
   display: block;
 }
+.tdetail-gallery-3 { grid-template-columns: 1fr 1fr 1fr; }
 @media (max-width: 720px) {
   .tdetail-gallery { grid-template-columns: 1fr; }
 }
