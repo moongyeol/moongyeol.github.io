@@ -594,6 +594,10 @@ img { max-width: 100%; display: block; }
   color: var(--ink-soft);
   font-size: 18px;
 }
+.system-flow-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
 
 /* ---------- Sleep & Stress banner ---------- */
 .sleep-stress {
@@ -947,12 +951,14 @@ body.no-scroll { overflow: hidden; }
   .header-actions .btn-small { display: none; }
   .section { padding: 84px 0; }
   .card-grid-5, .card-grid-4, .card-grid-3 { grid-template-columns: 1fr 1fr; }
+  .system-flow-grid { grid-template-columns: 1fr 1fr; }
   .cta { padding: 100px 28px; }
   .doctor-media { grid-template-columns: 84px 1fr; }
 }
 
 @media (max-width: 480px) {
   .card-grid-5, .card-grid-4, .card-grid-3, .card-grid-2 { grid-template-columns: 1fr; }
+  .system-flow-grid { grid-template-columns: 1fr; }
   .doctor-media { grid-template-columns: 1fr; }
   .stat-grid { grid-template-columns: 1fr; }
 }
