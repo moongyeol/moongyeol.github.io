@@ -837,6 +837,7 @@ body.no-scroll { overflow: hidden; }
 .treat-hero-img.contain { background: #fff; }
 .treat-hero-img.contain img { object-fit: contain; }
 .treat-hero-img.report { max-width: 800px; }
+.treat-hero-img.map { max-width: 900px; aspect-ratio: 4/3; }
 
 .tdetail-img-single {
   max-width: 480px;
@@ -954,6 +955,13 @@ body.no-scroll { overflow: hidden; }
   .system-flow-grid { grid-template-columns: 1fr 1fr; }
   .cta { padding: 100px 28px; }
   .doctor-media { grid-template-columns: 84px 1fr; }
+  .treat-hero-img.map {
+    max-width: none;
+    width: calc(100% + 56px);
+    margin-left: -28px;
+    margin-right: -28px;
+    border-radius: 0;
+  }
 }
 
 @media (max-width: 480px) {
