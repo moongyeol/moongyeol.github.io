@@ -464,6 +464,7 @@ img { max-width: 100%; display: block; }
 .care-card h3 { font-size: 17px; margin-bottom: 8px; }
 .care-card p { font-size: 14px; margin: 0; }
 .care-card p + p { margin-top: 10px; }
+.care-card p:has(.map-link) { margin-top: 20px; }
 .map-link { display: inline-block; font-size: 14px; font-weight: 600; color: var(--accent-dark); }
 .map-link:hover { text-decoration: underline; }
 
