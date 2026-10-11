@@ -463,6 +463,9 @@ img { max-width: 100%; display: block; }
 .care-card:hover { transform: translateY(-4px); box-shadow: 0 14px 30px rgba(60,70,55,0.08); }
 .care-card h3 { font-size: 17px; margin-bottom: 8px; }
 .care-card p { font-size: 14px; margin: 0; }
+.care-card p + p { margin-top: 10px; }
+.map-link { display: inline-block; font-size: 14px; font-weight: 600; color: var(--accent-dark); }
+.map-link:hover { text-decoration: underline; }
 
 .assess-card, .treat-card { text-align: left; }
 .assess-card h3, .treat-card h3 { font-size: 17px; margin-bottom: 6px; }
