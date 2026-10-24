@@ -468,6 +468,12 @@ img { max-width: 100%; display: block; }
 .map-link { display: inline-block; font-size: 14px; font-weight: 600; color: var(--accent-dark); }
 .map-link:hover { text-decoration: underline; }
 
+.hours-icon { width: 48px; height: 48px; color: var(--accent); margin-bottom: 22px; }
+.hours-icon svg { width: 100%; height: 100%; }
+.hours-rows { margin-top: 24px; display: flex; flex-direction: column; gap: 20px; }
+.hours-row .hours-day { font-weight: 700; color: var(--ink); margin: 0 0 4px; }
+.hours-row .hours-time { color: var(--ink-soft); margin: 0; }
+
 .assess-card, .treat-card { text-align: left; }
 .assess-card h3, .treat-card h3 { font-size: 17px; margin-bottom: 6px; }
 .assess-card p, .treat-card p { font-size: 14px; margin: 0; }
