@@ -475,7 +475,7 @@ img { max-width: 100%; display: block; }
 .hours-rows { margin-top: 24px; display: flex; flex-direction: column; gap: 20px; }
 .hours-row .hours-day { font-weight: 700; color: var(--ink); margin: 0 0 4px; }
 .hours-row .hours-time { color: var(--ink); font-size: 17px; margin: 0; }
-.map-lead { font-size: 17px; color: var(--ink); margin: 10px 0 0; }
+.map-lead { font-size: 20px; font-weight: 500; color: var(--ink); margin: 10px 0 0; }
 
 .assess-card, .treat-card { text-align: left; }
 .assess-card h3, .treat-card h3 { font-size: 17px; margin-bottom: 6px; }
