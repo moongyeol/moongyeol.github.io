@@ -1030,7 +1030,8 @@ body.no-scroll { overflow: hidden; }
   }
   .nav-dropdown a { padding: 8px 0; font-size: 14px; color: var(--ink-soft); border-bottom: none; }
   .hamburger { display: flex; }
-  .header-actions .btn-small { display: none; }
+  .header-actions { gap: 10px; }
+  .header-actions .btn-small { display: inline-block; order: -1; padding: 7px 14px; font-size: 13px; white-space: nowrap; flex-shrink: 0; }
   .section { padding: 84px 0; }
   .card-grid-5, .card-grid-4, .card-grid-3 { grid-template-columns: 1fr 1fr; }
   .system-flow-grid { grid-template-columns: 1fr 1fr; }
