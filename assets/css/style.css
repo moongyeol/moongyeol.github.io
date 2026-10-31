@@ -912,16 +912,18 @@ body.no-scroll { overflow: hidden; }
   border-radius: var(--radius);
   background: #fff;
 }
-.fee-table { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 600px; }
+.fee-table { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 600px; table-layout: fixed; }
 .fee-table th, .fee-table td {
   padding: 14px 18px;
   text-align: left;
   border-bottom: 1px solid var(--line);
-  white-space: nowrap;
+  white-space: normal;
+  word-break: keep-all;
+  vertical-align: top;
 }
 .fee-table th { background: var(--bg-alt); font-size: 13px; font-weight: 600; color: var(--ink); }
 .fee-table td { color: var(--ink-soft); }
-.fee-table td.fee-name { color: var(--ink); font-weight: 500; white-space: normal; }
+.fee-table td.fee-name { color: var(--ink); font-weight: 500; }
 .fee-table td.fee-price { color: var(--ink); font-weight: 600; }
 .fee-table tbody tr:last-child td { border-bottom: none; }
 .fee-table tbody tr:hover { background: var(--bg-alt); }
