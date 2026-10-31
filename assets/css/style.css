@@ -1035,7 +1035,7 @@ body.no-scroll { overflow: hidden; }
   .nav-dropdown a { padding: 8px 0; font-size: 14px; color: var(--ink-soft); border-bottom: none; }
   .hamburger { display: flex; }
   .header-actions { gap: 10px; }
-  .header-actions .btn-small { display: inline-block; order: -1; padding: 7px 14px; font-size: 13px; white-space: nowrap; flex-shrink: 0; }
+  .header-actions .btn-small { display: inline-block; order: -1; padding: 9px 18px; font-size: 15px; white-space: nowrap; flex-shrink: 0; }
   .header-actions .lang-toggle { display: none; }
   .nav-lang-toggle { display: block; }
   .section { padding: 84px 0; }
