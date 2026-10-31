@@ -817,7 +817,7 @@ body.no-scroll { overflow: hidden; }
 .cta h2 { font-size: clamp(26px, 3.4vw, 36px); margin-bottom: 22px; }
 .cta p { font-size: 16px; color: var(--ink); margin-bottom: 38px; }
 .cta-hours { font-size: 14px; color: var(--ink); font-weight: 500; margin-top: 20px; }
-.cta-hours p { margin: 0 0 10px; }
+.cta-hours p { margin: 0 0 4px; }
 .cta-hours p:last-child { margin-bottom: 0; }
 .cta-note { font-size: 12px; color: var(--ink-soft); margin-top: 10px; }
 
