@@ -162,6 +162,7 @@ img { max-width: 100%; display: block; }
   transition: opacity .2s ease;
 }
 .lang-toggle:hover { opacity: 1; }
+.nav-lang-toggle { display: none; }
 
 .hamburger {
   display: none;
@@ -1032,6 +1033,8 @@ body.no-scroll { overflow: hidden; }
   .hamburger { display: flex; }
   .header-actions { gap: 10px; }
   .header-actions .btn-small { display: inline-block; order: -1; padding: 7px 14px; font-size: 13px; white-space: nowrap; flex-shrink: 0; }
+  .header-actions .lang-toggle { display: none; }
+  .nav-lang-toggle { display: block; }
   .section { padding: 84px 0; }
   .card-grid-5, .card-grid-4, .card-grid-3 { grid-template-columns: 1fr 1fr; }
   .system-flow-grid { grid-template-columns: 1fr 1fr; }
