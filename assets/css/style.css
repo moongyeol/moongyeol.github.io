@@ -325,7 +325,7 @@ img { max-width: 100%; display: block; }
   align-items: baseline;
   gap: 12px;
 }
-.doctor-role { font-size: 14px; font-weight: 500; color: var(--ink-soft); }
+.doctor-role { font-size: 16px; font-weight: 500; color: #000; }
 
 .doctor-basic {
   display: grid;
@@ -888,6 +888,7 @@ body.no-scroll { overflow: hidden; }
 .treat-hero-img.contain img { object-fit: contain; }
 .treat-hero-img.report { max-width: 800px; }
 .treat-hero-img.map { max-width: 900px; aspect-ratio: 4/3; }
+.map-top-gap { margin-top: 24px; }
 
 .tdetail-img-single {
   max-width: 480px;
