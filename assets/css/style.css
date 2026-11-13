@@ -343,8 +343,8 @@ img { max-width: 100%; display: block; }
   gap: 10px;
 }
 .doctor-block li {
-  font-size: 14px;
-  color: var(--ink-soft);
+  font-size: 15px;
+  color: #000;
   padding-left: 16px;
   position: relative;
 }
