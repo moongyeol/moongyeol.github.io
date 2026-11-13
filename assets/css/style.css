@@ -471,6 +471,8 @@ img { max-width: 100%; display: block; }
     repeating-linear-gradient(135deg, rgba(255,255,255,0.25) 0 2px, transparent 2px 22px);
 }
 .ph-portrait { aspect-ratio: 4/5; width: 100%; }
+.portrait-photo { position: relative; border-radius: var(--radius); overflow: hidden; aspect-ratio: 4/5; width: 100%; }
+.portrait-photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .ph-square { aspect-ratio: 1/1; width: 100%; margin-bottom: 20px; }
 .ph-wide { aspect-ratio: 16/10; width: 100%; margin-bottom: 20px; }
 .ph-space { aspect-ratio: 4/3; width: 100%; }
