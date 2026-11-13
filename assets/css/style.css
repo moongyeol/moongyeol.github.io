@@ -115,7 +115,7 @@ img { max-width: 100%; display: block; }
   gap: 36px;
 }
 .main-nav a {
-  font-size: 15px;
+  font-size: 17px;
   color: var(--ink);
   opacity: .78;
   transition: opacity .2s ease;
@@ -1023,7 +1023,7 @@ body.no-scroll { overflow: hidden; }
     display: none;
   }
   .main-nav.open { display: flex; }
-  .main-nav a { padding: 12px 0; border-bottom: 1px solid var(--line); color: #000; opacity: 1; }
+  .main-nav a { padding: 12px 0; border-bottom: 1px solid var(--line); color: #000; opacity: 1; font-size: 15px; }
   .main-nav a:last-child { border-bottom: none; }
   .nav-item { border-bottom: 1px solid var(--line); }
   .nav-item > a { border-bottom: none; }
