@@ -1023,7 +1023,7 @@ body.no-scroll { overflow: hidden; }
     display: none;
   }
   .main-nav.open { display: flex; }
-  .main-nav a { padding: 12px 0; border-bottom: 1px solid var(--line); }
+  .main-nav a { padding: 12px 0; border-bottom: 1px solid var(--line); color: #000; opacity: 1; }
   .main-nav a:last-child { border-bottom: none; }
   .nav-item { border-bottom: 1px solid var(--line); }
   .nav-item > a { border-bottom: none; }
@@ -1034,7 +1034,7 @@ body.no-scroll { overflow: hidden; }
     padding: 0 0 8px 16px;
     min-width: 0;
   }
-  .nav-dropdown a { padding: 8px 0; font-size: 14px; color: var(--ink-soft); border-bottom: none; }
+  .nav-dropdown a { padding: 8px 0; font-size: 14px; color: #000; border-bottom: none; }
   .hamburger { display: flex; }
   .header-actions { gap: 10px; }
   .header-actions .btn-small { display: inline-block; order: -1; padding: 8px 16px; font-size: 16px; white-space: nowrap; flex-shrink: 0; }
