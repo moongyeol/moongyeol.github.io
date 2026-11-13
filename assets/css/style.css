@@ -116,8 +116,8 @@ img { max-width: 100%; display: block; }
 }
 .main-nav a {
   font-size: 17px;
-  color: var(--ink);
-  opacity: .78;
+  color: #000;
+  opacity: 1;
   transition: opacity .2s ease;
 }
 .main-nav a:hover { opacity: 1; }
