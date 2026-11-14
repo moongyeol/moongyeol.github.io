@@ -37,9 +37,22 @@ hamburger.addEventListener('click', () => {
 });
 
 mainNav.querySelectorAll('a').forEach((link) => {
-  link.addEventListener('click', () => {
-    mainNav.classList.remove('open');
-    hamburger.setAttribute('aria-expanded', 'false');
+  link.addEventListener('click', (e) => {
+    const isMobile = window.matchMedia('(max-width: 720px)').matches;
+    if (!isMobile) {
+      mainNav.classList.remove('open');
+      hamburger.setAttribute('aria-expanded', 'false');
+      return;
+    }
+    // give the tap highlight time to be seen before navigating
+    e.preventDefault();
+    const dest = link.href;
+    link.classList.add('nav-tap-hold');
+    setTimeout(() => {
+      mainNav.classList.remove('open');
+      hamburger.setAttribute('aria-expanded', 'false');
+      window.location.href = dest;
+    }, 750);
   });
 });
 
