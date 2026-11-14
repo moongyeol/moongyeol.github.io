@@ -1047,7 +1047,7 @@ body.no-scroll { overflow: hidden; }
   .main-nav a { padding: 12px 0; border-bottom: 1px solid var(--line); color: #000; opacity: 1; font-size: 15px; }
   .main-nav a:last-child { border-bottom: none; }
   .nav-item { border-bottom: 1px solid var(--line); }
-  .nav-item > a { border-bottom: none; }
+  .nav-item > a { border-bottom: none; padding-bottom: 0; }
   .nav-dropdown {
     position: static;
     opacity: 1; visibility: visible; transform: none;
