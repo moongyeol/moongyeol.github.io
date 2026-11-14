@@ -4,6 +4,7 @@ document.getElementById('year').textContent = new Date().getFullYear();
 
 // staggered variable-font weight hover on nav links
 document.querySelectorAll('.main-nav a').forEach((link) => {
+  link.draggable = false;
   const label = link.textContent;
   const chars = Array.from(label);
   link.setAttribute('aria-label', label);

@@ -1056,6 +1056,10 @@ body.no-scroll { overflow: hidden; }
     padding: 0 0 8px 16px;
     min-width: 0;
   }
+  .nav-item:focus-within .nav-dropdown,
+  .nav-item:hover .nav-dropdown {
+    transform: none;
+  }
   .nav-dropdown a { padding: 8px 0; font-size: 14px; color: #000; border-bottom: none; }
   .hamburger { display: flex; }
   .header-actions { gap: 10px; }
