@@ -1032,6 +1032,7 @@ body.no-scroll { overflow: hidden; }
 }
 
 @media (max-width: 720px) {
+  html[lang="en"] .logo-sub { display: none; }
   .main-nav {
     position: absolute;
     top: 100%; left: 0; right: 0;
