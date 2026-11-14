@@ -110,6 +110,7 @@ img { max-width: 100%; display: block; }
   color: var(--ink-soft);
   letter-spacing: 0;
 }
+html[lang="en"] .logo-sub { display: none; }
 .main-nav {
   display: flex;
   gap: 36px;
@@ -1032,7 +1033,6 @@ body.no-scroll { overflow: hidden; }
 }
 
 @media (max-width: 720px) {
-  html[lang="en"] .logo-sub { display: none; }
   .main-nav {
     position: absolute;
     top: 100%; left: 0; right: 0;
