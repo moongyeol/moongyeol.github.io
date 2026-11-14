@@ -52,7 +52,7 @@ mainNav.querySelectorAll('a').forEach((link) => {
       mainNav.classList.remove('open');
       hamburger.setAttribute('aria-expanded', 'false');
       window.location.href = dest;
-    }, 500);
+    }, 350);
   });
 });
 
