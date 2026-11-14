@@ -1044,8 +1044,9 @@ body.no-scroll { overflow: hidden; }
     display: none;
   }
   .main-nav.open { display: flex; }
-  .main-nav a { padding: 12px 0; border-bottom: 1px solid var(--line); color: #000; opacity: 1; font-size: 15px; }
+  .main-nav a { padding: 12px 0; border-bottom: 1px solid var(--line); color: #000; opacity: 1; font-size: 15px; -webkit-tap-highlight-color: transparent; -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; -webkit-user-drag: none; transition: background-color .15s ease; }
   .main-nav a:last-child { border-bottom: none; }
+  .main-nav a:active { background-color: var(--accent-soft); }
   .nav-item { border-bottom: 1px solid var(--line); }
   .nav-item > a { border-bottom: none; padding-bottom: 0; }
   .nav-dropdown {
