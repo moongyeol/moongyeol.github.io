@@ -529,22 +529,6 @@ img { max-width: 100%; display: block; }
 .hours-row .hours-day { font-weight: 700; color: var(--ink); margin: 0 0 4px; }
 .hours-row .hours-time { color: var(--ink); font-size: 17px; margin: 0; }
 .map-lead { font-size: 18px; font-weight: 500; color: var(--ink); margin: 10px 0 0; }
-.map-naver-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  margin-top: 14px;
-  padding: 9px 18px;
-  border: 1px solid var(--accent);
-  border-radius: 999px;
-  font-size: 14px;
-  font-weight: 600;
-  color: var(--accent-dark);
-  background: transparent;
-  transition: background .2s ease;
-}
-.map-naver-link:hover { background: var(--accent-soft); }
-.map-naver-link svg { width: 16px; height: 16px; flex-shrink: 0; }
 
 .assess-card, .treat-card { text-align: left; }
 .assess-card h3, .treat-card h3 { font-size: 17px; margin-bottom: 6px; }
