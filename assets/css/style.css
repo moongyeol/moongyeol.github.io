@@ -277,6 +277,12 @@ html[lang="en"] .logo-sub { display: none; }
   margin-bottom: 46px;
   text-shadow: 0 1px 14px rgba(0,0,0,0.55), 0 1px 2px rgba(0,0,0,0.45);
 }
+.hero-location {
+  font-size: 14px;
+  color: rgba(255,255,255,0.75);
+  margin-bottom: 46px;
+  text-shadow: 0 1px 14px rgba(0,0,0,0.55), 0 1px 2px rgba(0,0,0,0.45);
+}
 .hero-tags {
   list-style: none;
   display: flex;
@@ -301,6 +307,7 @@ html[lang="en"] .logo-sub { display: none; }
 .hero-sequence .hero-title { animation-delay: .5s; }
 .hero-sequence .hero-lead { animation-delay: 1.1s; }
 .hero-sequence .hero-note { animation-delay: 1.8s; }
+.hero-sequence .hero-location { animation-delay: 2.2s; }
 .hero-sequence .hero-tags { opacity: 1; animation: none; }
 .hero-sequence .hero-tags li { opacity: 0; animation: heroFadeUp .7s ease forwards; }
 .hero-sequence .hero-tags li:nth-child(1) { animation-delay: 2.6s; }
