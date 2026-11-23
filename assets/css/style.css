@@ -526,6 +526,7 @@ html[lang="en"] .logo-sub { display: none; }
 .care-card p { font-size: 14px; margin: 0; }
 .care-card p + p { margin-top: 10px; }
 .care-card p:has(.map-link) { margin-top: 20px; }
+.care-card p:has(.map-link) + p:has(.map-link) { margin-top: 8px; }
 .care .section-inner { max-width: 1480px; }
 @media (min-width: 981px) {
   .care .card-grid-4 { grid-template-columns: repeat(auto-fit, minmax(337px, 1fr)); }
